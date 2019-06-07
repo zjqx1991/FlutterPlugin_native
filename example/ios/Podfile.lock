@@ -14,9 +14,9 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/nativeweb_plugin/ios"
 
 SPEC CHECKSUMS:
-  Flutter: 58dd7d1b27887414a370fcccb9e645c08ffd7a6a
-  nativeweb_plugin: 64c382a92b477057764ca7f237cbe60754d516fd
+  Flutter: 9d0fac939486c9aba2809b7982dfdbb47a7b0296
+  nativeweb_plugin: a142d7166effbfa25959646d0950209e85ad1c26
 
 PODFILE CHECKSUM: aff02bfeed411c636180d6812254b2daeea14d09
 
-COCOAPODS: 1.7.0.beta.3
+COCOAPODS: 1.5.3

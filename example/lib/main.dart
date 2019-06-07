@@ -19,7 +19,13 @@ class _MyAppState extends State<MyApp> {
         channelManager.loadUrl('https://www.baidu.com');
       }
   );
+  /*RevanNativeWidget _nativeWidget = RevanNativeWidget(
+      viewCreatedCallBack: callBack,
+  );
 
+  void callBack(RevanChannelPluginManager manager) {
+    manager.loadUrl("https://www.baidu.com'");
+  }*/
 
   @override
   Widget build(BuildContext context) {

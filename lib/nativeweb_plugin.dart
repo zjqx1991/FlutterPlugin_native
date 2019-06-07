@@ -7,13 +7,15 @@ typedef void nativeViewCreatedCallBack(RevanChannelPluginManager channelManager)
 /// 通道
 class RevanChannelPluginManager {
 
-  MethodChannel _methodChannel = MethodChannel(
-    'nativeweb',
-  );
+  MethodChannel _channel;
+
+  RevanChannelPluginManager.init() {
+    _channel = MethodChannel('nativewebChannelID');
+  }
 
   Future<void> loadUrl(String url) async {
     assert(url != null);
-    return _methodChannel.invokeMethod("loadUrl", url);
+    return _channel.invokeMethod("loadUrlMethod", url);
   }
 
 }
@@ -46,8 +48,13 @@ class _RevanNativeWidgetState extends State<RevanNativeWidget> {
   final String _channel_name = 'nativeweb';
 
   //2、原生视图创建成功回调
-  void _platformViewCreatedCallBack(int id) {
-
+  Future<void> platformViewCreatedCallBack(int id) async {
+    if (widget.viewCreatedCallBack == null) {
+      return;
+    }
+    print('原生视图创建成功回调${id}');
+    //执行回调
+    widget.viewCreatedCallBack(RevanChannelPluginManager.init());
   }
 
   @override
@@ -55,14 +62,14 @@ class _RevanNativeWidgetState extends State<RevanNativeWidget> {
     if (defaultTargetPlatform == TargetPlatform.android) {
       return AndroidView(
         viewType: _channel_name,
-        onPlatformViewCreated: _platformViewCreatedCallBack,
+        onPlatformViewCreated: platformViewCreatedCallBack,
         creationParamsCodec: const StandardMessageCodec(),
       );
     }
     else if (defaultTargetPlatform == TargetPlatform.iOS) {
       return UiKitView(
         viewType: _channel_name,
-        onPlatformViewCreated: _platformViewCreatedCallBack,
+        onPlatformViewCreated: platformViewCreatedCallBack,
         creationParamsCodec: const StandardMessageCodec(),
       );
     }
