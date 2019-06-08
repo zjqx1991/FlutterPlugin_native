@@ -35,7 +35,6 @@ class _MyAppState extends State<MyApp> {
           title: const Text('NativeWeb'),
         ),
         body: Container(
-          color: Colors.red,
           child: _nativeWidget,
         ),
       ),

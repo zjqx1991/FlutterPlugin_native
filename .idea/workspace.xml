@@ -2,28 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f4a878a-9907-4cd4-99f1-ff66332a769a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/nativeweb_plugin/ios/Classes/RevanNativeFactory.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/nativeweb_plugin/ios/Classes/RevanNativeFactory.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/nativeweb_plugin/ios/Classes/RevanNativeView.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/nativeweb_plugin/ios/Classes/RevanNativeView.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ios/Classes/RevanNativeFactory.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ios/Classes/RevanNativeFactory.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ios/Classes/RevanNativeView.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ios/Classes/RevanNativeView.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/nativeweb_plugin/ios/Classes/FlutterQRViewController.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/nativeweb_plugin/ios/Classes/FlutterQRViewController.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/nativeweb_plugin/ios/Classes/RevanTest2ViewController.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/nativeweb_plugin/ios/Classes/RevanTest2ViewController.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/nativeweb_plugin/ios/Classes/RevanTestViewController.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/nativeweb_plugin/ios/Classes/RevanTestViewController.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Classes/FlutterQRViewController.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Classes/FlutterQRViewController.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Classes/RevanTest2ViewController.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Classes/RevanTest2ViewController.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Classes/RevanTestViewController.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Classes/RevanTestViewController.m" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/nativeweb_plugin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/nativeweb_plugin/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/nativeweb_plugin/example/ios/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/nativeweb_plugin/example/ios/Podfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/nativeweb_plugin/example/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/nativeweb_plugin/example/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/nativeweb_plugin/example/ios/Runner/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/nativeweb_plugin/example/ios/Runner/Info.plist" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/nativeweb_plugin/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/nativeweb_plugin/example/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/nativeweb_plugin/ios/Classes/NativewebPlugin.m" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/nativeweb_plugin/ios/Classes/NativewebPlugin.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/nativeweb_plugin/lib/nativeweb_plugin.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/nativeweb_plugin/lib/nativeweb_plugin.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/nativeweb_plugin/ios/Classes/RevanNativeView.m" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/nativeweb_plugin/ios/Classes/RevanNativeView.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/nativeweb_plugin/ios/nativeweb_plugin.podspec" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/nativeweb_plugin/ios/nativeweb_plugin.podspec" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/ios/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Podfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/ios/Runner/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner/Info.plist" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Classes/NativewebPlugin.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Classes/NativewebPlugin.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/nativeweb_plugin.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/nativeweb_plugin.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/RevanNativeView.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Classes/RevanNativeView.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/nativeweb_plugin.podspec" beforeDir="false" afterPath="$PROJECT_DIR$/ios/nativeweb_plugin.podspec" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.dart_tool/" />
     <ignored path="$PROJECT_DIR$/.idea/" />
@@ -39,11 +43,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/example/lib/main.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+            <state relative-caret-position="336">
+              <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
               <folding>
                 <element signature="e#228#289#0" />
               </folding>
@@ -51,11 +55,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pubspec.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/nativeweb_plugin.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="53">
-              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+            <state relative-caret-position="1032">
+              <caret line="45" selection-start-line="45" selection-end-line="45" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -71,16 +84,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/example/lib/main.dart" />
         <option value="$PROJECT_DIR$/lib/nativeweb_plugin.dart" />
+        <option value="$PROJECT_DIR$/ios/nativeweb_plugin.podspec" />
+        <option value="$PROJECT_DIR$/example/lib/main.dart" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="26" />
+    <option name="x" value="832" />
     <option name="y" value="23" />
-    <option name="width" value="1254" />
-    <option name="height" value="732" />
+    <option name="width" value="1728" />
+    <option name="height" value="1307" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -88,8 +102,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -100,7 +114,12 @@
             <path>
               <item name="FlutterPlugin_native" type="b2602c69:ProjectViewProjectNode" />
               <item name="FlutterPlugin_native" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FlutterPlugin_native" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlutterPlugin_native" type="462c0819:PsiDirectoryNode" />
+              <item name="values" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -141,10 +160,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="26" y="23" width="1254" height="732" extended-state="0" />
+    <frame x="832" y="23" width="1728" height="1307" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1980198" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18683274" />
       <window_info id="Captures" order="1" side_tool="true" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -154,7 +173,7 @@
       <window_info id="Capture Tool" order="7" />
       <window_info id="Favorites" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Dart Analysis" order="0" weight="0.3299435" />
-      <window_info active="true" anchor="bottom" id="Run" order="1" visible="true" weight="0.3203125" />
+      <window_info active="true" anchor="bottom" id="Run" order="1" visible="true" weight="0.41728395" />
       <window_info anchor="bottom" id="TODO" order="2" />
       <window_info anchor="bottom" id="Android Profiler" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Logcat" order="4" />
@@ -214,22 +233,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example/lib/main.dart">
+    <entry file="file://$PROJECT_DIR$/ios/nativeweb_plugin.podspec">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
-          <folding>
-            <element signature="e#228#289#0" />
-          </folding>
+        <state relative-caret-position="118">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/nativeweb_plugin.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="1032">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubspec.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Flutter/flutter/packages/flutter/lib/src/gestures/converter.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="59" column="2" selection-start-line="59" selection-start-column="2" selection-end-line="59" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/lib/main.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+          <folding>
+            <element signature="e#228#289#0" />
           </folding>
         </state>
       </provider>

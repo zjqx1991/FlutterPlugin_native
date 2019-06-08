@@ -7,6 +7,7 @@
 
 #import "RevanNativeView.h"
 #import <WebKit/WebKit.h>
+#import "FlutterQRViewController.h"
 
 
 @interface RevanNativeView ()
@@ -19,12 +20,13 @@
     int64_t _viewId;
     FlutterMethodChannel *_channel;
     UIView *_customView;
+    FlutterQRViewController *_qrViewVC;
 }
 
 - (instancetype)createNativeViewWithFrame:(CGRect)frame
                    viewIdentifier:(int64_t)viewId
                                 messenger:(NSObject<FlutterBinaryMessenger>*)messenger {
-    
+    _qrViewVC = [[FlutterQRViewController alloc] init];
     _customView = [[UIView alloc] initWithFrame:frame];
     _customView.backgroundColor = [UIColor yellowColor];
     _viewId = viewId;
@@ -42,8 +44,9 @@
 }
 
 - (nonnull UIView *)view {
-    NSLog(@"创建一个WebView：%@", _webView);
-    return _webView;
+    
+    return _qrViewVC.view;
+//    return _webView;
 //    return _customView;
 }
 
